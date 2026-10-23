@@ -1,0 +1,157 @@
+		body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f3f6fb;
+}
+
+.navbar{
+    background:white;
+    padding:15px;
+    text-align:center;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.nav-link a{
+    text-decoration:none;
+    margin:10px;
+    color:black;
+}
+
+.nav-link button{
+    background:blue;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+}
+
+.book{
+    background:#dbeafe;
+    padding:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.book_para{
+    width:50%;
+    float:left;
+}
+
+.b_img{
+    width:40%;
+    float:right;
+    text-align:center;
+}
+
+.b_img img{
+    width:500px;
+    height:auto;
+}
+.book_para h1{
+    font-size:35px;
+    color:#1a2b4c;
+}
+
+.book_para p{
+    font-size:18px;
+    color:#333;
+}
+
+.btn{
+    background:#2563eb;
+    color:white;
+    text-decoration:none;	   
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.features{
+    text-align:center;
+    padding:30px;
+}
+
+.card1 {
+	display:inline-block;
+    text-decoration:none;	
+	color:black;
+    width:220px;
+    height: auto;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    background:white;
+    box-shadow:0 0 5px gray;
+}
+.card2,.card3{
+    display:inline-block;
+    text-decoration:none;	
+	color:black;
+    width:220px;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    background:white;
+    box-shadow:0 0 5px gray;
+}
+
+.card1{
+    background:#9ec5ff;
+}
+
+.card2{
+    background:#ffd28c;
+}
+
+.card3{
+    background:#9ec5ff;
+}
+
+.card1 img,
+.card2 img,
+.card3 img{
+    width:40px;
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3{
+    margin:10px 0;
+}
+
+.about{
+    background:#ffffff;
+    padding:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.about_para{
+    width:50%;
+}
+
+.about_para h2{
+    font-size:30px;
+    color:#1a2b4c;
+}
+
+.about_para p{
+    font-size:18px;
+    color:#333;
+}
+
+.a_img{
+    width:40%;
+    text-align:center;
+}
+
+.a_img img{
+    width:280px;
+    height:auto;
+}
